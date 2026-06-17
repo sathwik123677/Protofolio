@@ -21,10 +21,10 @@ export default function HeroSection({
   };
 
   const stats = [
-    { number: "800+", label: "Problems Solved" },
+    { number: "1100+", label: "Problems Solved" },
     { number: "10+", label: "Production Projects" },
     { number: "92%", label: "NPTEL A+ Grade" },
-    { number: "8.14", label: "CGPA" },
+    { number: "8.50", label: "CGPA" },
   ];
 
   return (
