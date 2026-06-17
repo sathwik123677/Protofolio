@@ -42,7 +42,7 @@ export default function ContactSection() {
     setIsSubmitting(true);
 
     try {
-      await fetch("/api/send-email", {
+      const response = await fetch("/api/send-email", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -53,7 +53,12 @@ export default function ContactSection() {
           email: formData.email,
           message: formData.message,
         }),
-      }).catch(() => null);
+      });
+
+      const result = await response.json();
+      if (!response.ok || !result.success) {
+        throw new Error(result.message || "Failed to send email");
+      }
 
       toast.success("Message sent successfully! I'll get back to you soon.");
       setFormData({

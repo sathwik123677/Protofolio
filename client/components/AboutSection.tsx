@@ -59,7 +59,7 @@ export default function AboutSection() {
                 </div>
                 <div className="pt-2 border-t border-border">
                   <div className="text-sm text-foreground/60">
-                    <span className="font-semibold text-foreground">CGPA:</span> 8.14
+                    <span className="font-semibold text-foreground">CGPA:</span> 8.50
                   </div>
                   <div className="text-sm text-foreground/60">
                     <span className="font-semibold text-foreground">Graduation:</span> 2027
@@ -75,13 +75,13 @@ export default function AboutSection() {
                 <li className="flex gap-2">
                   <span className="text-accent">•</span>
                   <span>
-                    <span className="font-semibold text-foreground">LeetCode rating 1800+</span> rating with 100+ problems solved
+                    <span className="font-semibold text-foreground">LeetCode rating 2000+</span> rating with 1200+ problems solved
                   </span>
                 </li>
                 <li className="flex gap-2">
                   <span className="text-accent">•</span>
                   <span>
-                    <span className="font-semibold text-foreground">Codeforces 1000+</span> rating
+                    <span className="font-semibold text-foreground">Codeforces 1200+</span> rating
                   </span>
                 </li>
                 <li className="flex gap-2">

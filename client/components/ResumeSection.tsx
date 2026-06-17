@@ -2,10 +2,11 @@ import { Download, FileText } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export default function ResumeSection() {
+  const resumePath = "/Pathivada_Sathwik_Resume.pdf";
+
   const downloadResume = () => {
     const link = document.createElement("a");
-    link.href =
-      "https://cdn.builder.io/api/v1/image/assets%2F94cde98f4e214a3d80796d4fabf233fa%2Fea1e4d58963b4bc6be22444446492d04?format=webp&width=800";
+    link.href = resumePath;
     link.download = "Pathivada_Sathwik_Resume.pdf";
     document.body.appendChild(link);
     link.click();

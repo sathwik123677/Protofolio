@@ -3,13 +3,13 @@ import { Trophy, Target, Award, Code2, Zap, BookOpen } from "lucide-react";
 const achievements = [
   {
     icon: <Trophy className="w-8 h-8" />,
-    title: "LeetCode 1800+ Rating",
+    title: "LeetCode 2000+ Rating",
     date: "2024",
     color: "bg-amber-100 text-amber-800 dark:bg-amber-900 dark:text-amber-100",
   },
   {
     icon: <Code2 className="w-8 h-8" />,
-    title: "Codeforces 1000+ Rating",
+    title: "Codeforces 1200+ Rating",
     date: "2024",
     color: "bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-100",
   },
@@ -107,7 +107,7 @@ export default function AchievementsSection() {
             <h3 className="text-xl font-semibold text-foreground mb-6">Competitive Stats</h3>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
               <div>
-                <div className="text-3xl font-bold text-accent mb-2">800+</div>
+                <div className="text-3xl font-bold text-accent mb-2">1200+</div>
                 <div className="text-sm text-foreground/60">DSA Problems Solved</div>
               </div>
               <div>
@@ -119,7 +119,7 @@ export default function AchievementsSection() {
                 <div className="text-sm text-foreground/60">NPTEL Grade</div>
               </div>
               <div>
-                <div className="text-3xl font-bold text-accent mb-2">8.14</div>
+                <div className="text-3xl font-bold text-accent mb-2">8.50</div>
                 <div className="text-sm text-foreground/60">Current CGPA</div>
               </div>
             </div>

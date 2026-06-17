@@ -25,7 +25,7 @@ const projects: Project[] = [
     category: "NGO-Integrated Food Donation Platform",
     description:
       "An innovative full-stack platform connecting surplus food donors with NGOs in real-time, enabling donation matching, tracking, and gamification for community impact.",
-    image: "https://cdn.builder.io/api/v1/image/assets%2F94cde98f4e214a3d80796d4fabf233fa%2Fc92200fb327f4bea9c515529c23b9cee?format=webp&width=800",
+    image: "/food-donar.png",
     technologies: ["React", "React Router", "Tailwind CSS", "Node.js", "Express", "MongoDB"],
     github: "https://github.com/sathwik123677/Food_Donar",
   },
