@@ -77,11 +77,11 @@ export default function HeroSection({
             {/* Stats Inline */}
             <div className="flex gap-6 pt-4 text-sm">
               <div>
-                <div className="text-2xl font-bold text-accent">1800+</div>
+                <div className="text-2xl font-bold text-accent">2000+</div>
                 <div className="text-foreground/60">LeetCode Rating</div>
               </div>
               <div>
-                <div className="text-2xl font-bold text-accent">1000+</div>
+                <div className="text-2xl font-bold text-accent">1200+</div>
                 <div className="text-foreground/60">Codeforces Rating</div>
               </div>
               <div>
