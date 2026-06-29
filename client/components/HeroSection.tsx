@@ -98,7 +98,8 @@ export default function HeroSection({
               <img
                 src="https://cdn.builder.io/api/v1/image/assets%2F94cde98f4e214a3d80796d4fabf233fa%2Fea1e4d58963b4bc6be22444446492d04?format=webp&width=800"
                 alt="Pathivada Sathwik"
-                className="relative rounded-3xl w-full max-w-md object-cover shadow-2xl"
+             //   className="relative rounded-3xl w-full max-w-md object-cover shadow-2xl"
+                className="relative rounded-3xl w-full max-w-sm aspect-[4/5] object-cover shadow-2xl"
               />
               <div className="absolute bottom-4 right-4 bg-accent text-accent-foreground px-4 py-2 rounded-full text-sm font-semibold shadow-lg">
                 Open to work
