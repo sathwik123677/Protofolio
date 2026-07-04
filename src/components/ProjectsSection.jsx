@@ -40,7 +40,7 @@ const projects = [
     image: "https://cdn.builder.io/api/v1/image/assets%2F94cde98f4e214a3d80796d4fabf233fa%2Fa9d104e7601c4d5abaa433ed77b3827e?format=webp&width=800",
     technologies: ["React", "Tailwind CSS", "Node.js", "MongoDB", "Express"],
     github: "https://github.com/sathwik123677/Campus_events",
-    demo: "https://github.com/sathwik123677/Campus_events",
+    demo: "https://campus-events-mu.vercel.app/",
   },
   {
     title: "Car Rental Platform",
