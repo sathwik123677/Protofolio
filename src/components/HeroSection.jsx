@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 
 export default function HeroSection({ onViewProjects, onGetInTouch }) {
   const stats = [
-    { number: "1200+", label: "Problems Solved" },
+    { number: "1500+", label: "Problems Solved" },
     { number: "10+", label: "Production Projects" },
     { number: "92%", label: "NPTEL A+ Grade" },
     { number: "8.50", label: "CGPA" },
@@ -62,7 +62,7 @@ export default function HeroSection({ onViewProjects, onGetInTouch }) {
                 <div className="text-foreground/60">LeetCode Rating</div>
               </div>
               <div>
-                <div className="text-2xl font-bold text-accent">1200+</div>
+                <div className="text-2xl font-bold text-accent">1500+</div>
                 <div className="text-foreground/60">Codeforces Rating</div>
               </div>
               <div>
