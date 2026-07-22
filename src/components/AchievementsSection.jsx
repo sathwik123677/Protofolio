@@ -9,7 +9,7 @@ const achievements = [
   },
   {
     icon: <Code2 className="w-8 h-8" />,
-    title: "Codeforces 1200+ Rating",
+    title: "Codeforces 1500+ Rating",
     date: "2024",
     color: "bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-100",
   },
