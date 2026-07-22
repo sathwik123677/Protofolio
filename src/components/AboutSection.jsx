@@ -75,13 +75,13 @@ export default function AboutSection() {
                 <li className="flex gap-2">
                   <span className="text-accent">•</span>
                   <span>
-                    <span className="font-semibold text-foreground">LeetCode rating 2000+</span> rating with 1200+ problems solved
+                    <span className="font-semibold text-foreground">LeetCode rating 2000+</span> rating with 1500+ problems solved
                   </span>
                 </li>
                 <li className="flex gap-2">
                   <span className="text-accent">•</span>
                   <span>
-                    <span className="font-semibold text-foreground">Codeforces 1200+</span> rating
+                    <span className="font-semibold text-foreground">Codeforces 1500+</span> rating
                   </span>
                 </li>
                 <li className="flex gap-2">
